@@ -1,4 +1,13 @@
 Step 1:Basics of Node js
 Step 2: Handling Multiple Requests:
 
--
+-he can cook an egg in 5 seconds
+-she was server for take an order
+-server goto db and ...=5 seconds
+-take and order tell db
+-take an order and tell db
+-take an order and tell db
+-server take a request and tell db
+-server take an order and tell server
+-dont wait for 5 seconds
+--Now 3 orders are completed: wait for 5 seconds
