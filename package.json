@@ -1,0 +1,16 @@
+{
+  "name": "testbuckyroberts",
+  "version": "1.0.0",
+  "description": "i have started a bucky roberts series for learning node js",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "init": "^0.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "haider malik",
+  "license": "ISC"
+}
