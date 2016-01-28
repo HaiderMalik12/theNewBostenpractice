@@ -14,4 +14,25 @@ Step 2: Handling Multiple Requests:
 
 Step no 3: Understanding Reference:
 
+Step 4: Understanding Prototype:
+
+-Every javascript object has prototype:
+-prototype is also an object
+-all javascripts object inherit their properties and method 
+from prototype:
+-class User extends Object
+-All javascripts object inherit their properties and methods 
+from their prototype
+-
+//Adding Properties and Methods to objects
+
+//Sometimes you want to add new Properties to an existing object
+
+//Sometimes you want to add new Properties and functions
+//to all existing objects
+
+//Adding Property to an Object
+
+-If you would like to add new Property you must add at the class level
+
 
