@@ -1,3 +1,3 @@
 var connection=require('./mongo-props.js');
 
-connection.MongoClient('users');
+connection.MongoClient('user');
