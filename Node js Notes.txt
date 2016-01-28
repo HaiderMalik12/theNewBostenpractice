@@ -23,16 +23,10 @@ from prototype:
 -class User extends Object
 -All javascripts object inherit their properties and methods 
 from their prototype
+-new Object() inherit from prototype called Object.
+prototype
+-new Date() inherit the Date.prototype
 -
-//Adding Properties and Methods to objects
 
-//Sometimes you want to add new Properties to an existing object
-
-//Sometimes you want to add new Properties and functions
-//to all existing objects
-
-//Adding Property to an Object
-
--If you would like to add new Property you must add at the class level
 
 

@@ -5,7 +5,8 @@
   "main": "app.js",
   "dependencies": {
     "express": "^4.13.4",
-    "init": "^0.1.2"
+    "init": "^0.1.2",
+    "mongodb": "^2.1.4"
   },
   "devDependencies": {},
   "scripts": {
