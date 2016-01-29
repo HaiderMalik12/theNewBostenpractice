@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f39f243-e0f7-460e-b7b3-635645d40dde" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core-modules-tut-12/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object-factory-tutorial-11/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object-factory-tutorial-11/bucky.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object-factory-tutorial-11/emily.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object-factory-tutorial-11/item-details.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object-factory-tutorial-11/item.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object-factory-tutorial-11/itextile-app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object-factory-tutorial-11/movies.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object-factory-tutorial-11/party.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object-factory-tutorial-11/purchase.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object-factory-tutorial-11/sale.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shared-state-of-modules-tut-10/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shared-state-of-modules-tut-10/bucky.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shared-state-of-modules-tut-10/emily.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shared-state-of-modules-tut-10/movies.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core-modules-tut-12/example-path-module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core-modules-tut-12/example-setInterval.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core-modules-tut-12/app.js" afterPath="$PROJECT_DIR$/core-modules-tut-12/fs-core-module.js" />
     </list>
     <ignored path="Notes Text Files.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,12 +26,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core-modules-tut-12/app.js">
+      <file leaf-file-name="fs-core-module.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core-modules-tut-12/fs-core-module.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.11943794">
-              <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="example-path-module.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core-modules-tut-12/example-path-module.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="example-setInterval.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core-modules-tut-12/example-setInterval.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.19906323">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,8 +83,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/module-export-pattern-4-annonymous-object/app.js" />
-        <option value="$PROJECT_DIR$/module-export-pattern-4-annonymous-object/party.js" />
         <option value="$PROJECT_DIR$/module-export-pattern-4-annonymous-object/Yarn-Party.js" />
         <option value="$PROJECT_DIR$/module-export-pattern-4-annonymous-object/grey-party.js" />
         <option value="$PROJECT_DIR$/module-export-pattern-4-annonymous-object/dye-party.js" />
@@ -124,6 +132,8 @@
         <option value="$PROJECT_DIR$/object-factory-tutorial-11/itextile-app.js" />
         <option value="$PROJECT_DIR$/object-factory-tutorial-11/party.js" />
         <option value="$PROJECT_DIR$/core-modules-tut-12/app.js" />
+        <option value="$PROJECT_DIR$/core-modules-tut-12/example-path-module.js" />
+        <option value="$PROJECT_DIR$/core-modules-tut-12/example-setInterval.js" />
       </list>
     </option>
   </component>
@@ -226,20 +236,20 @@
       <recent name="E:\7th Semester\Node.js\Node js Tuts TheNewBosten\Notes Text Files\thenewbosten-way-export-modules" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.app.js">
-    <configuration default="false" name="item.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="item.js" working-dir="$PROJECT_DIR$/object-factory-tutorial-11">
-      <method />
-    </configuration>
-    <configuration default="false" name="purchase.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="purchase.js" working-dir="$PROJECT_DIR$/object-factory-tutorial-11">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Node.js.example-setInterval.js">
     <configuration default="false" name="party.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="party.js" working-dir="$PROJECT_DIR$/object-factory-tutorial-11">
       <method />
     </configuration>
     <configuration default="false" name="itextile-app.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="itextile-app.js" working-dir="$PROJECT_DIR$/object-factory-tutorial-11">
       <method />
     </configuration>
-    <configuration default="false" name="app.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/core-modules-tut-12">
+    <configuration default="false" name="app.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="$PROJECT_DIR$/core-modules-tut-12/fs-core-module.js" working-dir="$PROJECT_DIR$/core-modules-tut-12">
+      <method />
+    </configuration>
+    <configuration default="false" name="example-path-module.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="example-path-module.js" working-dir="$PROJECT_DIR$/core-modules-tut-12">
+      <method />
+    </configuration>
+    <configuration default="false" name="example-setInterval.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="example-setInterval.js" working-dir="$PROJECT_DIR$/core-modules-tut-12">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -291,19 +301,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.item.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.purchase.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.party.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.itextile-app.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.app.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.party.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.itextile-app.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.app.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.example-path-module.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.example-setInterval.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.app.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.itextile-app.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.party.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.purchase.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.item.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.example-setInterval.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.example-path-module.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.app.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.itextile-app.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.party.js" />
       </list>
     </recent_temporary>
   </component>
@@ -332,7 +342,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="523" y="11" width="569" height="728" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39747635" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39644012" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -358,21 +368,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/module-export-pattern-4-annonymous-object/grey-party.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module-export-pattern-4-annonymous-object/Yarn-Party.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module-export-pattern-4-annonymous-object/party.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -758,11 +753,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core-modules-tut-12/app.js">
+    <entry file="file://$PROJECT_DIR$/core-modules-tut-12/fs-core-module.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11943794">
-          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core-modules-tut-12/example-path-module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core-modules-tut-12/example-setInterval.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19906323">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
