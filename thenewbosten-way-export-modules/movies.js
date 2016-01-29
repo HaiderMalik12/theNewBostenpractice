@@ -8,7 +8,6 @@ module.exports = {
     },
     users:undefined,
     connect: function (dbName) {
-
           MongoClient.connect('mongodb://localhost:27017/' + dbName, function (err, db) {
             if (err) {
                 console.log('Unable to connect with Db ' + err);
@@ -19,7 +18,7 @@ module.exports = {
             }
 
         });
-        return this.users;
+
     }
 
 };
